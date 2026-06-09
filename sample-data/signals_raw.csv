@@ -1,0 +1,6 @@
+signal_id,timestamp,source,signal_type,severity,description,metadata
+SIG-001,2026-06-09T08:30:00Z,chat_monitor,unusual_activity_communication,High,"User J. Doe mentioned 'getting ahead of the announcement' in encrypted channel.","{""channel"": ""#trading-floor"", ""user"": ""j.doe""}"
+SIG-002,2026-06-09T09:15:12Z,transaction_ledger,large_transaction,Medium,"Account ACC-4829 withdrew $500,000 to off-shore jurisdiction.","{""account"": ""ACC-4829"", ""destination"": ""KY""}"
+SIG-003,2026-06-09T10:05:45Z,regulatory_rss,policy_change,Low,"SEC published update on insider trading compliance guidelines.","{""agency"": ""SEC"", ""ref_id"": ""SEC-2026-A""}"
+SIG-004,2026-06-09T11:40:00Z,chat_monitor,keyword_flag,High,"User A. Smith requested access to Q3 earnings report draft early.","{""user"": ""a.smith"", ""document"": ""draft_q3_2026.pdf""}"
+SIG-005,2026-06-09T12:00:00Z,system_logs,access_anomaly,Medium,"Multiple failed logins to restricted compliance DB from IP 198.51.100.42.","{""ip"": ""198.51.100.42"", ""attempts"": 5}"
