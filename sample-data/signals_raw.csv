@@ -1,6 +1,31 @@
-signal_id,timestamp,source,signal_type,severity,description,metadata
-SIG-001,2026-06-09T08:30:00Z,chat_monitor,unusual_activity_communication,High,"User J. Doe mentioned 'getting ahead of the announcement' in encrypted channel.","{""channel"": ""#trading-floor"", ""user"": ""j.doe""}"
-SIG-002,2026-06-09T09:15:12Z,transaction_ledger,large_transaction,Medium,"Account ACC-4829 withdrew $500,000 to off-shore jurisdiction.","{""account"": ""ACC-4829"", ""destination"": ""KY""}"
-SIG-003,2026-06-09T10:05:45Z,regulatory_rss,policy_change,Low,"SEC published update on insider trading compliance guidelines.","{""agency"": ""SEC"", ""ref_id"": ""SEC-2026-A""}"
-SIG-004,2026-06-09T11:40:00Z,chat_monitor,keyword_flag,High,"User A. Smith requested access to Q3 earnings report draft early.","{""user"": ""a.smith"", ""document"": ""draft_q3_2026.pdf""}"
-SIG-005,2026-06-09T12:00:00Z,system_logs,access_anomaly,Medium,"Multiple failed logins to restricted compliance DB from IP 198.51.100.42.","{""ip"": ""198.51.100.42"", ""attempts"": 5}"
+signal_id,source,customer_name,message,reach,customer_value,product,status
+S001,Gmail,Rahul,"Product arrived broken, I want refund",0,120,SmartBottle,new
+S002,Reddit,user204,"This brand is scamming people, mine broke too",7000,0,SmartBottle,new
+S003,WhatsApp,Sarah,"Need pricing today for 500 units",0,5000,SmartBottle,new
+S004,Instagram,creator_x,"I have 80K followers and want collaboration",80000,0,SmartBottle,new
+S005,Ads Alert,Meta Ads,"Campaign B spent $120 and got only 1 lead",0,0,SmartBottle,new
+S006,Twitter,tech_enthusiast,"Just received my SmartBottle and the app sync is incredibly fast! Love it.",12000,120,SmartBottle,new
+S007,App Store,mikey_cool,"The water tracker widget crashes on iOS 17. Please fix!",150,0,SmartBottle,new
+S008,Gmail,David Miller,"Inquiry regarding bulk customization with company logo",0,1500,SmartBottle,new
+S009,TikTok,fit_mom_kelly,"Watch me test if SmartBottle actually keeps ice cold for 24 hours!",45000,0,SmartBottle,new
+S010,Google Maps,Ananya Sen,"Visits flagship store. Staff was rude when I asked for a replacement.",500,0,SmartBottle,new
+S011,LinkedIn,Corporate Wellness HR,"Would love to buy 200 SmartBottles for our employee wellness onboarding program.",1500,2400,SmartBottle,new
+S012,Reddit,water_is_life,"Is anyone else having trouble connecting the SmartBottle to Apple Health?",300,0,SmartBottle,new
+S013,WhatsApp,Marcus Cheng,"Urgent: My order #84920 has not shipped yet, it's a birthday gift.",0,120,SmartBottle,new
+S014,Instagram,health_journey_with_al,"The glowing reminder to drink water is a game changer. Strongly recommend!",5000,120,SmartBottle,new
+S015,Gmail,Elena Rostova,"Do you offer international shipping to Germany? Looking to buy 5 bottles.",0,600,SmartBottle,new
+S016,Twitter,crypto_whale,"This smart bottle makes a great desk accessory. Very sleek design.",95000,120,SmartBottle,new
+S017,YouTube,UnboxEverything,"Unboxing the SmartBottle - Is it worth the premium price tag?",250000,0,SmartBottle,new
+S018,Gmail,Prof. Harrison,"Is the BPA-free certification document available for download? Need it for research.",0,0,SmartBottle,new
+S019,WhatsApp,John Green,"Can I change my delivery address? Ordered 10 mins ago.",0,120,SmartBottle,new
+S020,TikTok,hydration_nation,"This bottle keeps sending me notification alerts every 5 minutes, super annoying",18000,0,SmartBottle,new
+S021,Reddit,complain_central,"SmartBottle temperature sensor is completely off. It says 100C for cold water.",1200,0,SmartBottle,new
+S022,Gmail,Samantha K,"The battery charging dock is missing from my package. Please send one.",0,120,SmartBottle,new
+S023,Ads Alert,Google Ads,"CTR dropped by 45% on SmartBottle search campaign since yesterday",0,0,SmartBottle,new
+S024,LinkedIn,Startup Founder,"Looking to partner with SmartBottle to bundle our fitness app subscriptions.",8500,0,SmartBottle,new
+S025,WhatsApp,Priya Sharma,"Hi, my card was charged twice for order #93021. Please refund the duplicate.",0,240,SmartBottle,new
+S026,Twitter,design_daily,"Love the minimalist aesthetic of the SmartBottle. Beautiful packaging.",14000,120,SmartBottle,new
+S027,Gmail,BulkDistributor_UK,"We are a distributor in London. Want to discuss regional distribution rights.",0,10000,SmartBottle,new
+S028,Instagram,yoga_with_yasmine,"Collaborating with SmartBottle for our next fitness retreat giveaway!",35000,0,SmartBottle,new
+S029,App Store,angry_user_99,"App doesn't sync with Android 14. Terrible experience.",50,0,SmartBottle,new
+S030,Reddit,hardware_hacker,"Teardown of the SmartBottle: surprisingly good build quality and chip selection.",8200,0,SmartBottle,new
